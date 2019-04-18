@@ -145,6 +145,10 @@ module Rubber
         # No-op by default.
       end
 
+      def detach_volume(volume_id)
+        # No-op by default.
+      end
+
       def before_destroy_volume(volume_id)
         # No-op by default.
       end
